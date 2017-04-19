@@ -1,7 +1,7 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
     "buildNpmdoc": "node-summary",
-    "description": "api documentation for [node-summary (v1.1.0)](https://github.com/jbrooksuk/node-summary) [![npm package](https://img.shields.io/npm/v/npmdoc-node-summary.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-node-summary) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-node-summary.svg)](https://travis-ci.org/npmdoc/node-npmdoc-node-summary)",
+    "description": "#### api documentation for  [node-summary (v1.1.0)](https://github.com/jbrooksuk/node-summary)  [![npm package](https://img.shields.io/npm/v/npmdoc-node-summary.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-node-summary) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-node-summary.svg)](https://travis-ci.org/npmdoc/node-npmdoc-node-summary)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "node-summary": "*",
@@ -36,5 +36,5 @@
         "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
 }
